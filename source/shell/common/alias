@@ -1,0 +1,4 @@
+alias blog='open "$HOME/blog/"; code "$HOME/blog/"'
+alias lab='code "$HOME/lab/"'
+alias pip='python -m pip'
+alias prune='git reflog expire --expire=now --all && git gc --prune=now'
