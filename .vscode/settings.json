@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "alias": "shellscript",
+        "env": "shellscript",
+        ".style.yapf": "ini"
+    }
+}
