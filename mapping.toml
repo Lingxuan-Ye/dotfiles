@@ -1,0 +1,63 @@
+[[alacritty]]
+filename = '.alacritty.yml'
+destination = '~/.alacritty.yml'
+
+[[git]]
+filename = '.gitconfig'
+destination = '~/.gitconfig'
+
+[[pip]]
+filename = 'pip.conf'
+destination = '~/.config/pip/pip.conf'
+
+[[shell.common]]
+filename = 'alias'
+destination = '~/.common/alias'
+
+[[shell.common]]
+filename = 'env'
+destination = '~/.common/env'
+
+# [[shell.bash]]
+# filename = '.bash_profile'
+# destination = '~/.bash_profile'
+
+# [[shell.bash]]
+# filename = '.bash_login'
+# destination = '~/.bash_login'
+
+# [[shell.bash]]  # and sh, ksh, etc.
+# filename = '.profile'
+# destination = '~/.profile'
+
+[[shell.bash]]
+filename = '.bashrc'
+destination = '~/.bashrc'
+
+# [[shell.bash]]
+# filename = '.bash_logout'
+# destination = '~/.bash_logout'
+
+# [[shell.zsh]]
+# filename = '.zshenv'
+# destination = '~/.zshenv'
+
+# [[shell.zsh]]
+# filename = '.zprofile'
+# destination = '~/.zprofile'
+
+# [[shell.zsh]]
+# filename = '.zlogin'
+# destination = '~/.zlogin'
+
+[[shell.zsh]]
+filename = '.zshrc'
+destination = '~/.zshrc'
+
+# [[shell.zsh]]
+# filename = '.zlogout'
+# destination = '~/.zlogout'
+
+[[yapf]]
+filename = '.style.yapf'
+destination = '~/.style.yapf'
