@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-from pathlib import Path
 import sys
-from time import time
-
 import tomllib
+from os.path import expanduser, expandvars
+from pathlib import Path
+from time import time
 from typing import Generator
 
 ROOT = Path(__file__).parent
@@ -37,7 +37,9 @@ def read_mapping(tree: dict) -> Generator[tuple[Path, Path], None, None]:
         if isinstance(value, list):
             for record in value:
                 source = Path(directory) / record['filename']
-                destination = Path(record['destination']).expanduser()
+                destination = Path(
+                    expanduser(expandvars(record['destination']))
+                )
                 yield (source, destination)
         elif isinstance(value, dict):
             for source, destination in read_mapping(value):
