@@ -10,10 +10,6 @@ destination = '~/.alacritty.yml'
 filename = '.gitconfig'
 destination = '~/.gitconfig'
 
-[[pip]]
-filename = 'pip.conf'
-destination = '~/.config/pip/pip.conf'
-
 [[shell.common]]
 filename = 'alias'
 destination = '~/.common/alias'
@@ -62,6 +58,10 @@ destination = '~/.zshrc'
 # filename = '.zlogout'
 # destination = '~/.zlogout'
 
-[[yapf]]
+[[python.pip]]
+filename = 'pip.conf'
+destination = '~/.config/pip/pip.conf'
+
+[[python.yapf]]
 filename = '.style.yapf'
 destination = '~/.style.yapf'
