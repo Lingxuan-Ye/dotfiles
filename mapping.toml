@@ -2,6 +2,10 @@
 filename = '.alacritty.yml'
 destination = '~/.alacritty.yml'
 
+# [[alacritty]]
+# filename = '.alacritty.toml'
+# destination = '~/.config/alacritty/alacritty.toml'
+
 [[git]]
 filename = '.gitconfig'
 destination = '~/.gitconfig'
