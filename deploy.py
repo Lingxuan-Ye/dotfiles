@@ -85,7 +85,7 @@ def main() -> None:
             backup(destination)
             info(
                 f'existing {highlight_path(destination)} has been '
-                f'backed up under {highlight_path(BACKUPS)}.'
+                f'backed up to {highlight_path(BACKUPS)}.'
             )
         elif destination.exists():
             error(
