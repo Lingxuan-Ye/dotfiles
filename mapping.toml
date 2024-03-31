@@ -64,4 +64,4 @@ destination = '~/.config/pip/pip.conf'
 
 [[python.yapf]]
 filename = '.style.yapf'
-destination = '~/.style.yapf'
+destination = '~/.config/yapf/style'
