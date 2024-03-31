@@ -1,10 +1,10 @@
-[[alacritty]]
-filename = '.alacritty.yml'
-destination = '~/.alacritty.yml'
-
 # [[alacritty]]
-# filename = '.alacritty.toml'
-# destination = '~/.config/alacritty/alacritty.toml'
+# filename = '.alacritty.yml'
+# destination = '~/.alacritty.yml'
+
+[[alacritty]]
+filename = '.alacritty.toml'
+destination = '~/.config/alacritty/alacritty.toml'
 
 [[git]]
 filename = '.gitconfig'

@@ -1,0 +1,22 @@
+# See more at https://alacritty.org/config-alacritty.html
+
+[window]
+opacity = 0.95
+
+[window.dimensions]
+columns = 120
+lines = 40
+
+[window.padding]
+x = 16
+y = 16
+
+[font]
+size = 12.0
+
+[font.normal]
+family = "MesloLGS NF"
+
+[cursor.style]
+blinking = "On"
+shape = "Underline"
