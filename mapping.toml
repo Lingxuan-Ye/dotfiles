@@ -1,67 +1,67 @@
 # [[alacritty]]
-# filename = '.alacritty.yml'
-# destination = '~/.alacritty.yml'
+# filename = ".alacritty.yml"
+# destination = "~/.alacritty.yml"
 
 [[alacritty]]
-filename = '.alacritty.toml'
-destination = '~/.config/alacritty/alacritty.toml'
+filename = ".alacritty.toml"
+destination = "~/.config/alacritty/alacritty.toml"
 
 [[git]]
-filename = '.gitconfig'
-destination = '~/.gitconfig'
+filename = ".gitconfig"
+destination = "~/.gitconfig"
 
 [[shell.common]]
-filename = 'alias'
-destination = '~/.common/alias'
+filename = "alias"
+destination = "~/.common/alias"
 
 [[shell.common]]
-filename = 'env'
-destination = '~/.common/env'
+filename = "env"
+destination = "~/.common/env"
 
 # [[shell.bash]]
-# filename = '.bash_profile'
-# destination = '~/.bash_profile'
+# filename = ".bash_profile"
+# destination = "~/.bash_profile"
 
 # [[shell.bash]]
-# filename = '.bash_login'
-# destination = '~/.bash_login'
+# filename = ".bash_login"
+# destination = "~/.bash_login"
 
 # [[shell.bash]]  # and sh, ksh, etc.
-# filename = '.profile'
-# destination = '~/.profile'
+# filename = ".profile"
+# destination = "~/.profile"
 
 [[shell.bash]]
-filename = '.bashrc'
-destination = '~/.bashrc'
+filename = ".bashrc"
+destination = "~/.bashrc"
 
 # [[shell.bash]]
-# filename = '.bash_logout'
-# destination = '~/.bash_logout'
+# filename = ".bash_logout"
+# destination = "~/.bash_logout"
 
 # [[shell.zsh]]
-# filename = '.zshenv'
-# destination = '~/.zshenv'
+# filename = ".zshenv"
+# destination = "~/.zshenv"
 
 # [[shell.zsh]]
-# filename = '.zprofile'
-# destination = '~/.zprofile'
+# filename = ".zprofile"
+# destination = "~/.zprofile"
 
 # [[shell.zsh]]
-# filename = '.zlogin'
-# destination = '~/.zlogin'
+# filename = ".zlogin"
+# destination = "~/.zlogin"
 
 [[shell.zsh]]
-filename = '.zshrc'
-destination = '~/.zshrc'
+filename = ".zshrc"
+destination = "~/.zshrc"
 
 # [[shell.zsh]]
-# filename = '.zlogout'
-# destination = '~/.zlogout'
+# filename = ".zlogout"
+# destination = "~/.zlogout"
 
 [[python.pip]]
-filename = 'pip.conf'
-destination = '~/.config/pip/pip.conf'
+filename = "pip.conf"
+destination = "~/.config/pip/pip.conf"
 
 [[python.yapf]]
-filename = '.style.yapf'
-destination = '~/.config/yapf/style'
+filename = ".style.yapf"
+destination = "~/.config/yapf/style"
