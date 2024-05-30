@@ -21,4 +21,3 @@ PATH="./node_modules/.bin:$PATH"
 . "$HOME/.cargo/env"
 
 export PATH
-export PYTHONPATH="$HOME/lib"
