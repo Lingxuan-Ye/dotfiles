@@ -116,5 +116,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-source $HOME/.common/alias
-source $HOME/.common/env
+source $HOME/.config/shell/alias
+source $HOME/.config/shell/env

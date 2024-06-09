@@ -8,15 +8,15 @@ destination = "~/.config/alacritty/alacritty.toml"
 
 [[git]]
 filename = ".gitconfig"
-destination = "~/.gitconfig"
+destination = "~/.config/git/config"
 
 [[shell.common]]
 filename = "alias"
-destination = "~/.common/alias"
+destination = "~/.config/shell/alias"
 
 [[shell.common]]
 filename = "env"
-destination = "~/.common/env"
+destination = "~/.config/shell/env"
 
 # [[shell.bash]]
 # filename = ".bash_profile"
