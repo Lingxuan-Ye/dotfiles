@@ -1,0 +1,3 @@
+[[git]]
+source = "git/config"
+target = "~/.config/git/config"
