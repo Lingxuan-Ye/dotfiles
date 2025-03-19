@@ -6,6 +6,10 @@ target = "~/.config/fish/config.fish"
 source = "git/config"
 target = "~/.config/git/config"
 
+[[starship]]
+source = "starship/starship.toml"
+target = "~/.config/starship.toml"
+
 [[zsh]]
 source = "zsh/zshenv"
 target = "~/.zshenv"
