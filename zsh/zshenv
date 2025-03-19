@@ -1,0 +1,12 @@
+typeset -U path
+
+path=(
+    "$HOME/bin"
+    "$HOME/.cargo/bin"
+    "$HOME/.local/bin"
+    “/usr/local/bin”
+    “/usr/local/sbin”
+    $path
+)
+
+export PATH

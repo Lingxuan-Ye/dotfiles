@@ -1,0 +1,6 @@
+alias blog="code ~/blog"
+alias lab="code ~/lab"
+alias ll="ls -ahlF --color=auto"
+alias prune="git reflog expire --expire=now --all && git gc --prune=now"
+
+eval "$(starship init zsh)"
