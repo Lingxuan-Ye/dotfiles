@@ -1,3 +1,17 @@
+[[alacritty]]
+platform = "linux"
+source = "alacritty/alacritty-linux.toml"
+target = "~/.config/alacritty/alacritty.toml"
+
+[[alacritty]]
+platform = "mac"
+source = "alacritty/alacritty-mac.toml"
+target = "~/.config/alacritty/alacritty.toml"
+
+[[alacritty]]
+source = "alacritty/themes/"
+target = "~/.config/alacritty/themes/"
+
 [[fish]]
 source = "fish/config.fish"
 target = "~/.config/fish/config.fish"
