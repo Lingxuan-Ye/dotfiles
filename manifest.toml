@@ -1,3 +1,15 @@
 [[git]]
 source = "git/config"
 target = "~/.config/git/config"
+
+[[zsh]]
+source = "zsh/zshenv"
+target = "~/.zshenv"
+
+[[zsh]]
+source = "zsh/zprofile"
+target = "~/.zprofile"
+
+[[zsh]]
+source = "zsh/zshrc"
+target = "~/.zshrc"
