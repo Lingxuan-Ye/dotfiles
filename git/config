@@ -9,12 +9,19 @@
 [init]
 	defaultBranch = main
 
-[user]
-	name = Lingxuan Ye
-	email = love@lingxuan.io
+[gpg]
+	format = ssh
+
+[commit]
+	gpgsign = true
 
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
+
+[user]
+	name = Lingxuan Ye
+	email = love@lingxuan.io
+	signingkey = ~/.ssh/id_ed25519.pub
