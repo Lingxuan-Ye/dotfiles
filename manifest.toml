@@ -20,6 +20,10 @@ target = "~/.config/fish/config.fish"
 source = "git/config"
 target = "~/.config/git/config"
 
+[[git]]
+source = "git/ignore"
+target = "~/.config/git/ignore"
+
 [[starship]]
 source = "starship/starship.toml"
 target = "~/.config/starship.toml"
