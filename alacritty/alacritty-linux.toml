@@ -16,7 +16,7 @@ x = 16
 y = 16
 
 [font]
-size = 16
+size = 12
 
 [font.normal]
 family = "MesloLGS NF"
