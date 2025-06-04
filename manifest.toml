@@ -12,6 +12,12 @@ target = "~/.config/alacritty/alacritty.toml"
 source = "alacritty/themes/"
 target = "~/.config/alacritty/themes/"
 
+[[cs2]]
+source = "cs2/autoexec.cfg"
+
+[[cs2]]
+source = "cs2/lib/"
+
 [[fish]]
 source = "fish/config.fish"
 target = "~/.config/fish/config.fish"
