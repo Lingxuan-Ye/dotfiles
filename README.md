@@ -1,7 +1,7 @@
-# Configs
+# Dotfiles
 
-Many of my configs.
+A collection of my personal dotfiles.
 
 ## Installation
 
-The installation script is not yet implemented. For manual installation, refer to `manifest.toml`.
+The installation script is not yet implemented. For manual setup, refer to `manifest.toml`.
