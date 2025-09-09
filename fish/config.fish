@@ -13,6 +13,7 @@ set fish_greeting ""
 
 abbr --add blog "code ~/blog"
 abbr --add lab "code ~/lab"
+abbr --add miri "cargo +nightly miri"
 abbr --add prune "git reflog expire --expire=now --all && git gc --prune=now"
 
 if status is-interactive
