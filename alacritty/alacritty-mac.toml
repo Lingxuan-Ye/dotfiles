@@ -4,6 +4,7 @@
 import = ["themes/vscode.toml"]
 
 [window]
+decorations = "Transparent"
 opacity = 0.8
 blur = true
 option_as_alt = "Both"
