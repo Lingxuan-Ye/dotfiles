@@ -10,3 +10,4 @@ path=(
 )
 
 export PATH
+export EDITOR=hx
