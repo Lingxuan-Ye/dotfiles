@@ -17,6 +17,8 @@ abbr --add lab "$EDITOR ~/lab"
 abbr --add miri "cargo +nightly miri"
 abbr --add prune "git reflog expire --expire=now --all && git gc --prune=now"
 
+zoxide init fish | source
+
 if status is-interactive
     starship init fish | source
 end
