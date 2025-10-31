@@ -1,11 +1,11 @@
 [[alacritty]]
 platform = "linux"
-source = "alacritty/alacritty-linux.toml"
+source = "alacritty/alacritty.linux.toml"
 target = "~/.config/alacritty/alacritty.toml"
 
 [[alacritty]]
 platform = "mac"
-source = "alacritty/alacritty-mac.toml"
+source = "alacritty/alacritty.mac.toml"
 target = "~/.config/alacritty/alacritty.toml"
 
 [[alacritty]]
