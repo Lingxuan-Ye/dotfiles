@@ -21,7 +21,7 @@ y = 16
 size = 16
 
 [font.normal]
-family = "MesloLGS NF"
+family = "MesloLGS Nerd Font"
 
 [cursor.style]
 blinking = "On"
