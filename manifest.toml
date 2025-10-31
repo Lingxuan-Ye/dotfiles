@@ -31,6 +31,10 @@ source = "git/ignore"
 target = "~/.config/git/ignore"
 
 [[helix]]
+source = "helix/config.root.toml"
+target = "/root/.config/helix/config.toml"
+
+[[helix]]
 source = "helix/config.toml"
 target = "~/.config/helix/config.toml"
 

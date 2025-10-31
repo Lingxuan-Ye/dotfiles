@@ -1,0 +1,25 @@
+theme = "dark_plus"
+
+[editor]
+cursorline = true
+default-line-ending = "lf"
+insert-final-newline = true
+trim-final-newlines = true
+trim-trailing-whitespace = true
+
+[editor.lsp]
+display-progress-messages = true
+display-inlay-hints = true
+
+[editor.file-picker]
+hidden = false
+
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+nbsp = "all"
+nnbsp = "all"
+newline = "none"
+
+[editor.indent-guides]
+render = true
