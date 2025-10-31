@@ -38,6 +38,10 @@ target = "/root/.config/helix/config.toml"
 source = "helix/config.toml"
 target = "~/.config/helix/config.toml"
 
+[[helix]]
+source = "helix/languages.toml"
+target = "~/.config/helix/languages.toml"
+
 [[starship]]
 source = "starship/starship.toml"
 target = "~/.config/starship.toml"
