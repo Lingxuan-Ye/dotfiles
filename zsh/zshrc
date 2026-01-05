@@ -1,8 +1,0 @@
-alias blog="$EDITOR ~/blog"
-alias lab="$EDITOR ~/lab"
-alias ll="ls -ahlF --color=auto"
-alias miri="cargo +nightly miri"
-alias prune="git reflog expire --expire=now --all && git gc --prune=now"
-
-eval "$(zoxide init zsh)"
-eval "$(starship init zsh)"

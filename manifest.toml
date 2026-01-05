@@ -45,15 +45,3 @@ target = "~/.config/helix/languages.toml"
 [[starship]]
 source = "starship/starship.toml"
 target = "~/.config/starship.toml"
-
-[[zsh]]
-source = "zsh/zshenv"
-target = "~/.zshenv"
-
-[[zsh]]
-source = "zsh/zprofile"
-target = "~/.zprofile"
-
-[[zsh]]
-source = "zsh/zshrc"
-target = "~/.zshrc"
