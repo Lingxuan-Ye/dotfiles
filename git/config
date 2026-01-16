@@ -23,5 +23,5 @@
 
 [user]
 	name = Lingxuan Ye
-	email = love@lingxuan.io
+	email = ink@lingxuan.io
 	signingkey = ~/.ssh/id_ed25519.pub
